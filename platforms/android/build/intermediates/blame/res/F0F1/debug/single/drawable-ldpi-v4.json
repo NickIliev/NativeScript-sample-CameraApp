@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/niliev/Desktop/git-nick/testCameraApp/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/icon.png",
+        "source": "/Users/niliev/Desktop/git-nick/testCameraApp/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/niliev/Desktop/git-nick/testCameraApp/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/niliev/Desktop/git-nick/testCameraApp/platforms/android/build/intermediates/exploded-aar/android-upload-service/res/drawable-ldpi/ic_launcher.png"
+    }
+]
