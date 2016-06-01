@@ -20,7 +20,7 @@ function onTakeShot(args) {
                     'Content-Type': 'application/octet-stream',
                     'File-Name': fileName
                 },
-                description: '{ \'uploading\': ' + fileName + ' }'
+                description: '{ \'uploading\ ': ' + fileName + ' }'
             };
             var task = session.uploadFile(filePath, options);
             task.on('progress', logEvent);
@@ -31,7 +31,7 @@ function onTakeShot(args) {
                 console.log('Status: ' + e.eventName);
                 // console.log(e.object);
                 if (e.totalBytes !== undefined) {
-                    console.log('current bytes transfered: ' + e.currentBytes);
+                    console.log('Current bytes transfered: ' + e.currentBytes);
                     console.log('Total bytes to transfer: ' + e.totalBytes);
                 }
             }
